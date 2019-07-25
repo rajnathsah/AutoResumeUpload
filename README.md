@@ -2,10 +2,10 @@
 
 ### Requirements
 
-1. Python 3.x
-2. Selenium
-3. Chrome Webdriver
-4. Chrome browser
+1. [Python 3.x](https://www.python.org/)
+2. [Selenium](https://www.seleniumhq.org/)
+3. [Chrome Webdriver](https://chromedriver.storage.googleapis.com/76.0.3809.68/chromedriver_win32.zip)
+4. [Chrome browser](https://www.google.com/chrome/)
 
 Selenium can be installed using 
 
@@ -13,7 +13,7 @@ pip install selenium
 or using requirement file to install all dependencies
 pip install -r requirements.txt
 
-Chrome webdriver can be download from here or from official website.
+Chrome webdriver can be download from here or from above given link.
 
 #### Update python script for auto upload resume
 

@@ -1,2 +1,3 @@
-# AutoResumeUpdate
-Python script to auto update resume
+# Automate resume update on Naukri.com using python
+
+## Requirements

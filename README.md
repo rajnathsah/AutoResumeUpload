@@ -28,4 +28,6 @@ python update_naukri_resume.py
 4. It will generate log file and screen shot for verification and debugging purpose.
 5. You can schedule it on any server or computer to update profile daily.
 
+Note:- All the files should be placed in same directory.
+
 Happy job hunting

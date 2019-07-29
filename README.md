@@ -27,4 +27,5 @@ python update_naukri_resume.py
 3. One can also run using resumeupdate.bat file by double click.
 4. It will generate log file and screen shot for verification and debugging purpose.
 5. You can schedule it on any server or computer to update profile daily.
-6. Happy job hunting
+
+Happy job hunting

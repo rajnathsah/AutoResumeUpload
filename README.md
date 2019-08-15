@@ -8,11 +8,11 @@
 4. [Chrome browser](https://www.google.com/chrome/)
 
 Selenium can be installed using 
-```
+```python
 pip install selenium
 ```
 or using requirement file to install all dependencies
-```
+```python
 pip install -r requirements.txt
 ```
 Chrome webdriver can be download from here or from above given link.
@@ -21,7 +21,7 @@ Chrome webdriver can be download from here or from above given link.
 
 1. Open config.ini file using any text editor and update Naukri.com login id, password and resume file name and save it.
 2. Run the update_naukri_resume.py from command prompt using 
-```
+```python
 python update_naukri_resume.py
 ```
 3. One can also run using resumeupdate.bat file by double click.

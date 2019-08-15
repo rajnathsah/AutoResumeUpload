@@ -30,4 +30,4 @@ python update_naukri_resume.py
 
 Note:- All the files should be placed in same directory.
 
-Happy job hunting
+Happy job hunting!

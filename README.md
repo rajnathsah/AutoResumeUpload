@@ -20,13 +20,14 @@ Chrome webdriver can be download from here or from above given link.
 #### Update python script for auto upload resume
 
 1. Open config.ini file using any text editor and update Naukri.com login id, password and resume file name and save it.
-2. Run the update_naukri_resume.py from command prompt using 
+2. Run the UploadResume.py from command prompt using 
 ```python
-python update_naukri_resume.py
+python UploadResume.py
 ```
 3. One can also run using resumeupdate.bat file by double click.
 4. It will generate log file and screen shot for verification and debugging purpose.
 5. You can schedule it on any server or computer to update profile daily.
+5. Added window executable (created using [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html)) and .bat file for one click run  
 
 Note:- All the files should be placed in same directory.
 

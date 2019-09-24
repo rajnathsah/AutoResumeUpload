@@ -4,7 +4,7 @@
 
 1. [Python 3.x](https://www.python.org/)
 2. [Selenium](https://www.seleniumhq.org/)
-3. [Chrome Webdriver](https://chromedriver.storage.googleapis.com/76.0.3809.68/chromedriver_win32.zip)
+3. [Chrome Webdriver](https://chromedriver.chromium.org/)
 4. [Chrome browser](https://www.google.com/chrome/)
 
 Selenium can be installed using 
@@ -30,6 +30,6 @@ python UploadResume.py
 5. Added window executable (created using [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html)) and .bat file for one click run  
 6. UploadResume.exe can be used without installing python and other dependent libraries, In this case you should download UploadResume.exe,config.ini and chromedriver.exe. Update config file and place your resume in same folder and you are ready for one click resume upload.  
 
-Note:- All the files should be placed in same directory.
+Note:- All the files should be placed in same directory and always use latest version of chromedriver.
 
 Happy job hunting!

@@ -1,1 +1,1 @@
-python update_naukri_resume.py
+python UploadResume.py

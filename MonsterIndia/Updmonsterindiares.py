@@ -76,14 +76,12 @@ try:
         browser.save_screenshot(updateimage)
         logger.info('Upload cv and wait for 5 sec')
         browser.quit()
-    except Exception as ex:
-        print(ex)
+    except Exception as ex:        
         logger.error('Error in login and cv upload: {}'.format(ex))
     finally:
         logger.error('Closed browser because of error')
         browser.quit()
             
-except Exception as ex:
-    print(ex)
+except Exception as ex:    
     logger.error('Error in cv upload- {}'.format(ex))
     browser.quit()

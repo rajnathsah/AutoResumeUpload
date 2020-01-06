@@ -69,6 +69,6 @@ python monstergulf.py
 7. Added window executable (created using [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html)) for one click run.
 8. monstergulf.exe can be used without installing python and other dependent libraries, In this case you should download depedent file config file and chromedriver.exe. Update config file and place your resume in same folder and you are ready for one click resume upload. 
 
-Note:- All the files should be placed in same directory and always use latest version of chromedriver.
+Note:- All the files should be placed in same directory and always use latest version of chrome and chromedriver.
 
 Happy job hunting!

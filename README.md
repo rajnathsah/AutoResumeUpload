@@ -7,28 +7,20 @@
 3. [Chrome Webdriver](https://chromedriver.chromium.org/)
 4. [Chrome browser](https://www.google.com/chrome/)
 
-Selenium can be installed using 
-```python
-pip install selenium
-```
-or using requirement file to install all dependencies
-```python
-pip install -r requirements.txt
-```
-Chrome webdriver can be download from here or from above given link.
+### Always use updated chrome browser.
 
-#### Python script and executable for resume upload
+#### Executable for resume upload
 * [naukri.com](https://www.naukri.com)
 * [naukrigulf.com](https://www.naukrigulf.com)
+* [monsterindia.com](https://www.monsterindia.com)
+* [monstergulf.com](https://www.monstergulf.com)
 
-1. Download content of Naukri folder and chrome driver.
-2. Open config.ini file using any text editor and update [naukri.com](https://www.naukri.com) login id, password and resume file name and save it.
-3. Run the UploadResume.py from command prompt using 
-```python
-python UploadResume.py
-```
-4. One can also run using resumeupdate.bat file by double click.
-5. It will generate log file and screen shot for verification and debugging purpose.
-6. You can schedule it on any server or computer to update profile daily.
-7. Added window executable (created using [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html)) for one click run  
-8. UploadResume.exe can be used without installing python and other dependent libraries, In this case you should download dependent config file and chromedriver.exe. Update config file and place your resume in same folder and you are ready for one click resume upload.  
+1. Download [OneClick](https://github.com/rajnathsah/AutoResumeUpload/blob/master/OneClick/OneClick.exe) executable.
+2. First click on executable will download chrome driver and prompt for config file creation and copy the resume.
+3. It will check periodically for chromedriver and download updated one.
+4. In case any config parameter is updated or needs to be changed, then delete existing config.ini file.
+5. Next run, will prompt for configuration file generation.
+6. In case you wish to refer source code or modify it, feel free to download and use it.
+
+
+Happy Job Hunting!

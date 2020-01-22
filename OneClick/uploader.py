@@ -3,6 +3,7 @@ from driver import chromedriver
 import logging
 from time import strftime
 import configparser
+import datetime
 
 from encrdecr import decr_passwd
 from naukri import naukri
@@ -24,7 +25,13 @@ if __name__ =='__main__':
 
     try:
         if os.path.isfile(path_to_driver):
-            pass
+            '''Check chromedriver last modified date and if older than 7 days then download 
+            latest driver and place it in current working directory            
+            '''            
+            chrome_driver_last_mod = datetime.datetime.today() - datetime.datetime.utcfromtimestamp(os.path.getctime('chromedriver.exe'))
+            if chrome_driver_last_mod > datetime.timedelta(days = 7):                
+                chrome_release = chromedriver.get_chrome_driver_release()
+                chromedriver.download_driver(chrome_release)
         else:
             chrome_release = chromedriver.get_chrome_driver_release()
             chromedriver.download_driver(chrome_release)

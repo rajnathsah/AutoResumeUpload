@@ -30,7 +30,7 @@ def loginUpload(username, password, path_to_resume):
         passwordField.send_keys(password)
         logger.info('Entered password')
         
-        browser.find_element_by_xpath("//*[@id='loginForm']/div[5]/div/button").click()
+        browser.find_element_by_xpath("//*[@id='loginForm']/div[3]/div[3]/div/button[1]").click()
         time.sleep(5)
         logger.info('Click on login and wait for 5 sec')
         

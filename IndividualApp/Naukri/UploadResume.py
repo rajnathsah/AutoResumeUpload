@@ -58,7 +58,7 @@ try:
     passwordField.send_keys(password)
     logger.info('Entered password')
     
-    clickbtn=browser.find_element_by_xpath("//*[@id='loginForm']/div[5]/div/button").click()
+    clickbtn=browser.find_element_by_xpath("//*[@id='loginForm']/div[3]/div[3]/div/button[1]").click()
     time.sleep(5)
     logger.info('Click login and wait for 5 sec')
     
